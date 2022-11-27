@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C61E382933137200865B61 /* infoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20C61E3A2933137200865B61 /* infoPlist.strings */; };
 		BE245141266FBEE00038AD81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE245140266FBEE00038AD81 /* AppDelegate.swift */; };
 		BE245143266FBEE00038AD81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE245142266FBEE00038AD81 /* SceneDelegate.swift */; };
 		BE245145266FBEE00038AD81 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE245144266FBEE00038AD81 /* FirstViewController.swift */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2045B6D52933197400E9134B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/infoPlist.strings; sourceTree = "<group>"; };
+		20C61E392933137200865B61 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/infoPlist.strings; sourceTree = "<group>"; };
 		BE24513D266FBEE00038AD81 /* ios-stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-stations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE245140266FBEE00038AD81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE245142266FBEE00038AD81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +58,7 @@
 		BE245162266FBEE10038AD81 /* ios_stationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_stationsUITests.swift; sourceTree = "<group>"; };
 		BE245164266FBEE10038AD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE665EDD2678EA44006F4F2C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		BE665EDF26817723006F4F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		BE665EDF26817723006F4F2C /* Base */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		BE7131362685ED0F00E3EAB8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		BE7131382685ED7600E3EAB8 /* BookAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAPIClient.swift; sourceTree = "<group>"; };
 		BE7131452688C07600E3EAB8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -125,6 +128,7 @@
 				BE245149266FBEE10038AD81 /* Assets.xcassets */,
 				BE24514B266FBEE10038AD81 /* LaunchScreen.storyboard */,
 				BE665EE026817723006F4F2C /* Info.plist */,
+				20C61E3A2933137200865B61 /* infoPlist.strings */,
 			);
 			path = "ios-stations";
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE24514D266FBEE10038AD81 /* LaunchScreen.storyboard in Resources */,
+				20C61E382933137200865B61 /* infoPlist.strings in Resources */,
 				BE24514A266FBEE10038AD81 /* Assets.xcassets in Resources */,
 				BE245148266FBEE00038AD81 /* Main.storyboard in Resources */,
 			);
@@ -329,6 +334,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		20C61E3A2933137200865B61 /* infoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C61E392933137200865B61 /* ja */,
+				2045B6D52933197400E9134B /* en */,
+			);
+			name = infoPlist.strings;
+			sourceTree = "<group>";
+		};
 		BE245146266FBEE00038AD81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
