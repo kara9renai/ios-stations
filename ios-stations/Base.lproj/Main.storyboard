@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccg-nX-vGF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ols-TZ-Kmx">
                                 <rect key="frame" x="107" y="426" width="200" height="44"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="ALH-J1-ln5"/>
-                                    <constraint firstAttribute="width" constant="200" id="SWI-tW-0tB"/>
+                                    <constraint firstAttribute="height" constant="44" id="2tt-cD-dMI"/>
+                                    <constraint firstAttribute="width" constant="200" id="9OV-lT-vRu"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click">
@@ -35,8 +35,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ccg-nX-vGF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7SL-h5-Sam"/>
-                            <constraint firstItem="Ccg-nX-vGF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sUX-km-Jq4"/>
+                            <constraint firstItem="Ols-TZ-Kmx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ErY-rO-jI5"/>
+                            <constraint firstItem="Ols-TZ-Kmx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n07-fY-x22"/>
                         </constraints>
                     </view>
                 </viewController>
